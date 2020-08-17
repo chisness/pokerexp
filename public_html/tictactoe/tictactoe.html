@@ -34,14 +34,14 @@
 					Please consider this information carefully before deciding whether to accept this task.
 				</p>
 				<p>
-					TITLE OF RESEARCH: Problem demonstrability as pruning of the solution space.
+					TITLE OF RESEARCH: Human-understandable guidance from AI agents
 
 				</p>
 				<p>
-					PURPOSE OF RESEARCH: To examine problem solving performance.
+					PURPOSE OF RESEARCH: To examine computer agents teaching humans.
 				</p>
 				<p>
-					WHAT YOU WILL DO: You will be asked to solve a Tic-tac-toe game problem.
+					WHAT YOU WILL DO: You will be asked to play hands in 1-card poker.
 				</p>
 				<p>
 					TIME REQUIRED: Participation will take approximately 15-20 minutes.
@@ -118,13 +118,143 @@
 		
 			</div> 
 		</div> 
-		<div id="instructions" class="page">
+		<div id="rules" class="page">
 			<div class="intro">
 				<h1>
-					Instructions - Tic-tac-toe
+					Rules - 1-card Poker
 				</h1>
 				
 				<div class="question">
+					<p> Kuhn Poker, also known as 1-card poker, is a simplified poker game that doesn’t involve any of the complicated parts of poker like straights and flushes and full houses. 
+					
+					</p>
+									
+				</div>
+				
+				<div class="question">
+					<div class="6by6">
+					Please read the game instructions carefully; there will be a quiz on the next step. The game works like this: 
+					<ol>
+						<li>We use a deck of 10 cards. Each card is numbered 1 to 10.</li>
+						<li>The highest numbered cards are always the highest ranked and “beat” the lower ranked cards at showdown</li>
+						<li>Each player starts the hand with $2</li>
+						<li>To begin, each player automatically puts $1 into the pot (also known as an ante) and then has $1 remaining that can be used for betting</li>
+						<li>Each player is dealt 1 card and the remaining cards in the deck are discarded</li>
+						<li>Each player’s card is private only to that player and the discarded cards are unknown to both</li>
+						<li>Players alternate acting first from hand to hand</li>
+						<li>There are two actions possible at any time:
+						<br>Bet: Put your $1 into the pot either as the initial bet or to match the opponent’s bet
+						<br>Pass: Pass to the opponent as the initial action or pass after an opponent bets. The latter is also known as folding, which is like forfeiting the hand, since if you pass after an opponent bet then the opponent automatically wins.</li> 
+						<li>A summary of possible betting sequences is shown in the table below.</li> 
+						<li>A Pass-Pass or Bet-Bet results in a “showdown”, where the cards are revealed and the player with the best card rank wins the pot</li>
+						<li>A Bet-Pass results in the betting player automatically winning the pot</li>
+					</ol>
+
+					<table class="tg">
+							<tbody>
+							  <tr>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">P1 Action 1</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">P2 Action 2</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">P1 Action 3</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Result</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Final Pot</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Profit</span></td>
+							  </tr>
+							  <tr>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Pass</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Pass</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">--</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Showdown</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">$2</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">$1</span></td>
+							  </tr>
+							  <tr>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Pass</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Bet</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Pass</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">P2 wins</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">$3 ($1 uncalled)</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">$1</span></td>
+							  </tr>
+							  <tr>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Pass</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Bet</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Bet</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Showdown</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">$4</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">$2</span></td>
+							  </tr>
+							  <tr>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Bet</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Pass</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">--</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">P1 wins</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">$3 ($1 uncalled)</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">$1</span></td>
+							  </tr>
+							  <tr>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Bet</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Bet</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">--</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Showdown</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">$4</span></td>
+								<td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">$2</span></td>
+							  </tr>
+							</tbody>
+					</table>
+					</div>
+				</div>
+
+				<!-- <div class="question" id="monkey"> 
+
+					<img class="6by6" src="images/tut2.png">
+
+					<img class="10by10" src="images/tut2_10.png">
+
+					Two players, X and O, take turns marking the spaces on the board.
+				</div>
+
+				<div class="question"> 
+					<div class="6by6">
+					<img src="images/tut3.png" >
+
+					The player who succeeds in marking <strong> four </strong> neighboring spaces in a horizontal, vertical, or diagonal row wins the game. 
+					
+					<br><br>In the image on the right, O won the game by marking four spaces vertically.
+					</div>
+					<div class="10by10">
+						<img src="images/tut3_10.png" >
+
+						The player who succeeds in marking <strong> five </strong> neighboring spaces in a horizontal, vertical, or diagonal row wins the game.
+
+						<br><br>In the image on the right, X won the game by marking five spaces vertically.
+					</div>
+				</div> -->
+
+				<!-- <div class="question">
+					<div class="6by6">
+					<img src="images/tut4.png" >
+
+					In this image X won by marking four spaces diagonally.
+					</div>
+					<div class="10by10">
+						<img src="images/tut4_10.png" >
+
+						In this image X won by marking five spaces diagonally.
+					</div>
+				</div> -->
+	
+			</div>
+		</div> 
+	
+	
+		<div id="example_hands" class="page">
+			<div class="intro">
+				<h1>
+					Example hands
+				</h1>
+				
+				<!-- <div class="question">
 					<p> In this task you will play a version of the game Tic-tac-toe, your goal will be to find the best move given a starting position.
 					
 					</p>
@@ -133,25 +263,48 @@
 						You will have the opportunity to get a bonus based on your performance. If your solution is correct you get a bonus of $1.
 					</p>
 									
-				</div>
+				</div> -->
 				
 				<div class="question">
 					<div class="6by6">
 
-					<img src="images/tut1.png" >
+					<img src="images/ex1-1.png" ><br>
+					<img src="images/ex1-2.png" ><br>
+					<img src="images/ex1-3.png" >
 
-					This version of the game Tic-tac-toe is played on a 6x6 board as displayed on the right.  Please read the instructions carefully; there will be a quiz on the next step.
-					</div>
+					<ol>
+							<li>Player 1 is dealt card 9 and Player 2 is dealt card 2. Note that these cards are private to each player, but we show them in the image for illustration purposes. </li>
+							<li>Both players ante $1 each. The pot is now $2.</li>
+							<li>Player 1 acts first and bets $1.</li>
+							<li>Player 2 acts next and passes (also known as folding).</li>
+							<li>Player 1 wins because Player 2 folded (so Player 1 wins regardless of his/her hand).</li>
+							<li>The total winnings are $1 because Player 2 only contributed the forced $1 bet and then folded. </li>
+						</ol>
 
-					<div class="10by10">
-
-						<img src="images/tut1_10.png" >
-
-						This version of the game Tic-tac-toe is played on a 10x10 board as displayed on the right.  Please read the instructions carefully; there will be a quiz on the next step.
 					</div>
 				</div>
 
-				<div class="question" id="monkey"> 
+				<div class="question">
+						<div class="6by6">
+	
+						<img src="images/ex2-1.png" ><br>
+						<img src="images/ex2-2.png" ><br>
+						<img src="images/ex2-3.png" ><br>
+						<img src="images/ex2-4.png" >
+						<ol>
+								<li>Player 1 is dealt card 2 and Player 2 is dealt card 7. Note that these cards are private to each player, but we show them in the image for illustration purposes.</li>
+								<li>Both players ante $1 each. The pot is now $2. </li>
+								<li>Player 1 acts first and bets $1.</li>
+								<li>Player 2 acts next and bets $1 (matching the $1 bet by Player 1, also known as calling in this context).</li>
+								<li>The hand goes to showdown (both players show their cards).</li>
+								<li>Player 2 wins because Player 2 has a 7 and Player 1 has a 2. </li>
+								<li>The total winnings are $2 because each player put in $2 in bets. </li>
+							</ol>
+
+						</div>
+					</div>
+
+				<!-- <div class="question" id="monkey"> 
 
 					<img class="6by6" src="images/tut2.png">
 
@@ -188,7 +341,7 @@
 
 						In this image X won by marking five spaces diagonally.
 					</div>
-				</div>
+				</div> -->
 	
 			</div>
 		</div> 
@@ -199,55 +352,53 @@
 				<h1>Please answer the following questions:</h1>
 				
 					<div class="question">
-						<img class="6by6" src="images/q1.png" >
-						<img class="10by10" src="images/q1_10.png" >
-						<h3>Who won?</h3>
+						<h3>How many dollars do you start each hand with?</h3>
 						<select id="q1">
-							<option value="0">&nbsp;</option>
-							<option value="1">nobody</option>
-							<option value="2">X</option>
-							<option value="3">O</option>
+							<option value="0">$1</option>
+							<option value="1">$2</option>
+							<option value="2">$3</option>
+							<option value="3">$4</option>
 						</select>
 					</div>
 				
 					<div class="question">
-						<img class="6by6" src="images/q2.png" >
-						<img class="10by10" src="images/q2_10.png" >
-						<h3>Who won?</h3>
+						<h3>How many dollars are bet automatically (also known as antes or forced bets) at the beginning of every hand for each player?</h3>
 						<select id="q2">
-							<option value="0"> &nbsp;</option>
-							<option value="1">nobody</option>
-							<option value="2">X</option>
-							<option value="3">O</option>
+							<option value="0">$0</option>
+							<option value="1">$1</option>
+							<option value="2">$2</option>
+							<option value="3">$4</option>
 						</select>
 					</div>
 
 					<div class="question">
-						<img class="6by6" src="images/q3.png">
-						<img class="10by10" src="images/q3_10.png">
-						<h3>Who won?</h3>
+						<h3>If, after the initial ante, the betting sequence is Bet-Bet, what is the final pot size? </h3>
 						<select id="q3">
-							<option value="0"> &nbsp;</option>
-							<option value="1">nobody</option>
-							<option value="2">X</option>
-							<option value="3">O</option>
+							<option value="0">$1</option>
+							<option value="1">$2</option>
+							<option value="2">$3</option>
+							<option value="3">$4</option>
 						</select>
 					</div>
 
 					<div class="question">
-						<img class="6by6" src="images/q4.png">
-						<img class="10by10" src="images/q4_10.png">
-						<h3>X can win in one move. What is the move?</h3>
-						<input type="text" id="q4" maxlength="2" size="2" />
-						example: a1
+						<h3>If, after the initial ante, the betting sequence is Bet-Bet and Player 1 shows card 6 and Player 2 shows card 8, who won and how much did he/she win (i.e. net gain from before the hand to after the hand)? </h3>
+						<select id="q4">
+							<option value="0">Player 2 wins $2</option>
+							<option value="1">Player 1 wins $1</option>
+							<option value="2">Player 2 wins $4</option>
+							<option value="3">Player 1 wins $4</option>
+						</select>
 					</div>
 
 					<div class="question">
-						<img class="6by6" src="images/q5.png">
-						<img class="10by10" src="images/q5_10.png">
 						<h3>O can win in one move. What is the move?</h3>
-						<input type="text" id="q5" maxlength="2" size="2" />
-						example: a1
+						<select id="q5">
+							<option value="0">Player 1 wins $2</option>
+							<option value="1">Player 2 wins $2</option>
+							<option value="2">Player 1 wins $4</option>
+							<option value="3">Player 2 wins $4</option>
+						</select>
 					</div>
 
 					<div class="question">
@@ -373,7 +524,7 @@
 		</div>
 	</div>
 
-		<div id="explain" class="page">
+		<!-- <div id="explain" class="page">
 			<div class="intro">
 			<div id='explanation'>
 				<br><br>
@@ -382,7 +533,7 @@
 							<textarea id="exp" rows="4" cols="100"></textarea>
 			</div>
 			</div>
-		</div>
+		</div> -->
 
 
 		<div id="experiment" class="page">
